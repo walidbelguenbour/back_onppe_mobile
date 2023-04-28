@@ -18,7 +18,7 @@ app.use(cors());
 
 // Configuration des routes
 app.use('/enfants', enfantRoutes);
-app.get('/:id', enfantController.getEnfantById);
+app.get('/enfants/:id', enfantController.getEnfantById);
 // ... ajouter les autres routes ici
 
 // Gestion des erreurs
