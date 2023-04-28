@@ -1,0 +1,21 @@
+{
+    "name": "onppe",
+    "version": "1.0.0",
+    "description": "Description du projet",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.17.1",
+        "pg": "^8.7.1",
+        "sequelize": "^6.6.5"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
